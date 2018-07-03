@@ -1,9 +1,0 @@
-language: "ru"
-
-pipeline:
-  - name: "tokenizer_whitespace"
-  - name: "intent_featurizer_count_vectors"
-  - name: "intent_classifier_tensorflow_embedding"
-  - name: "intent_entity_featurizer_regex"
-  - name: "ner_crf"
-  - name: "ner_synonyms"
